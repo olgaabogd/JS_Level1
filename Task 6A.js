@@ -6,14 +6,14 @@ constructor(name) {
 }
 run(speed) {
     this.speed = speed;
-    console.log(`${this.name} бежит со скоростью ${this.speed} км/ч.`);
+    console.log(`${this.name} runs with speed of ${this.speed} km/hr.`);
 }
 stop() {
     this.speed = 0;
-    console.log(`${this.name} стоит неподвижно.`);
+    console.log(`${this.name} doesn't move`);
 }
 }
 
-let animal = new Animal("Мой питомец");
+let animal = new Animal("My pet");
 animal.run(5);
 module.exports = Animal;
