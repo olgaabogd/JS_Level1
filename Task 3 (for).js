@@ -9,5 +9,5 @@ let sum = 0
     return sum / array.length
 }
 
-console.log(getAverage([1,5,7,3,67,4,56,8])) 
-console.log(getAverage([])) 
+console.log(getAverage([1,5,7,3,67,4,56,8])); 
+console.log(getAverage([]));
