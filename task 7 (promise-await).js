@@ -10,4 +10,4 @@ const asyncFn = async () => {
     console.log('Timer ended', endTime - startTime)
 }
  
-asyncFn()
+asyncFn();
