@@ -1,7 +1,7 @@
-let sourceArray = ['Minsk', 'Moscow', 'Berlin', 'Toronto', 'Paris', 'Moscow'];
-let geese = ['London', 'Paris', 'Moscow'];
+function updateArray(sourceArray, geeseArray) { 
+        return (sourceArray.filter
+            (element => !geeseArray.includes(element)))
+    }
 
-let result = sourceArray.reduce((res, value) => {
-if (!geese.includes(value)) res.push(value); 
-return res;} , []);
-console.log(result); 
+const resultArray = updateArray(['Minsk', 'Moscow', 'Berlin', 'Toronto', 'Paris', 'Moscow'], ['London', 'Paris', 'Moscow'])
+console.log(resultArray);
