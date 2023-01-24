@@ -12,5 +12,5 @@ static selectEvenNumbers(arr){
 	}	
 }
 
-	const evenNumbers = MyArrayWithNumbers.selectEvenNumbers([2, 4, 5, 6, 7, 8]);
-	console.log (evenNumbers);
+const evenNumbers = MyArrayWithNumbers.selectEvenNumbers([2, 4, 5, 6, 7, 8]);
+console.log (evenNumbers);
