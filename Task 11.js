@@ -1,2 +1,5 @@
-let text = 'Я люблю Javascript';
-console.log(text.split(' ').join('_')); 
+function replaceSpacesToUnderscores(text) {
+    return text.split(' ').join('_')
+}
+
+console.log(replaceSpacesToUnderscores('I love JavaScript!'));
